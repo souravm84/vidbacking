@@ -34,9 +34,11 @@ Then import the script after importing jQuery file, and write a little script as
 ```html
 <script type="text/javascript" src="dist/jquery.vidbacking.js"></script>
 <script type="text/javascript">
+
 	$(function(){
     	$('body').vidbacking();
 	});
+	
 </script>
 ```
 > Note: don't forget to import jQuery before importing this file
