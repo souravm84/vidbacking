@@ -3,11 +3,12 @@
 
 This is a small jQuery plugin to simplify the process of showing HTML5 video as background. You can use this for showing a video on **whole page background** or to show the video as the background of a `<div>`, `<section>`, like elements.
 >  ***Features:***
-* Cross Browser Video Background Plugin.
-* A very small file size (4kb total).
-* Easy to learn and use.
-* Can be used for both page background or for an element background.
-* Tested on all modern browsers.
+> * Cross Browser Video Background Plugin.
+> * Very small file size (4kb total).
+> * Easy to use.
+> * Can be used for both page background or for an element background.
+> * Tested on all modern browsers.
+
  
 ### Dependency
 The **vidbacking** depends on jQuery 2.x or higher. No other files required for it to work properly. Also, it requires HTML5 video tag support in the browser(This is a common feature in all major browsers).
@@ -20,11 +21,24 @@ You need to add the HTML5 video tag next to  your HTML body tag. Don't forget to
 ```html
 <video poster="screenshot1.jpg" autoplay muted loop class="vidbacking">
 	<source src="video1.mp4" type="video/mp4">
-    <source src="video1.webm" type="video/webm">
+	<source src="video1.webm" type="video/webm">
 </video>
 ```
 
-Link the css file jquery.vidbacking.min.css provided under the `dist` folder in your `<head />` tag
-```css
+Link the css file jquery.vidbacking.min.css provided under the `dist` folder under your `<head />` tag
+```html
 <link rel="stylesheet" href="dist/jquery.vidbacking.css" type="text/css">
 ```
+Then import the script after importing jQuery file, and write a little script as described in following section.
+
+```html
+<script type="text/javascript" src="dist/jquery.vidbacking.js"></script>
+<script type="text/javascript">
+	$(function(){
+    	$('body').vidbacking();
+	});
+</script>
+```
+> Note: don't forget to import jQuery before importing this file
+
+
