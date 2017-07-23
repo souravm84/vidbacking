@@ -7,6 +7,7 @@ This is a small jQuery plugin to simplify the process of showing HTML5 video as 
 > * Very small file size (4kb total).
 > * Easy to use.
 > * Can be used for both page background or for an element background.
+> * Image fallback when video not supported.
 > * Tested on all modern browsers.
 
  
@@ -16,7 +17,7 @@ The **vidbacking** depends on jQuery 2.x or higher. No other files required for 
 ### How to use
 You can use this video-background plugin in two different way. Either for video as page background, or for the background of a `<div>`, `<section>`, or some other block level elements.
 #### For page background:
-You need to add the HTML5 video tag next to  your HTML body tag. Don't forget to add the ***class="vidbacking" in your video tag.
+You need to add the HTML5 video tag next to  your HTML body tag. Don't forget to add the ***class="vidbacking"*** in your video tag.
 
 ```html
 <video poster="screenshot1.jpg" autoplay muted loop class="vidbacking">
@@ -25,7 +26,7 @@ You need to add the HTML5 video tag next to  your HTML body tag. Don't forget to
 </video>
 ```
 
-Link the css file jquery.vidbacking.min.css provided under the `dist` folder under your `<head />` tag
+Link the css file jquery.vidbacking.min.css provided under the `dist` folder under your `<head />` tag.
 ```html
 <link rel="stylesheet" href="dist/jquery.vidbacking.css" type="text/css">
 ```
@@ -39,6 +40,34 @@ Then import the script after importing jQuery file, and write a little script as
 	});
 </script>
 ```
-> Note: don't forget to import jQuery before importing this file
 
+#### For `<div>` or other block level elements' background:
+You need to add the HTML5 video tag under the `<div>` or block level element for which you want to set a video-background. Don't forget to add the ***class="vidbacking"*** in your video tag.
+```html
+<div id="video-back">
+	<video poster="screenshot1.jpg" autoplay muted loop class="vidbacking">
+		<source src="video1.mp4" type="video/mp4">
+		<source src="video1.webm" type="video/webm">
+	</video>
+    <!-- html content of the div -->
+    <h1>Vidbacking Demo of &lt;div&gt; Background</h1>
+</div>
+```
+
+Link the css file jquery.vidbacking.min.css provided under the `dist` folder under your `<head />` tag.
+```html
+<link rel="stylesheet" href="dist/jquery.vidbacking.css" type="text/css">
+```
+
+Then import the script after importing jQuery file, and write a little script as described in following section.
+
+```html
+<script type="text/javascript" src="dist/jquery.vidbacking.js"></script>
+<script type="text/javascript">
+	$(function(){
+    		$('#video-back').vidbacking();
+	});
+</script>
+```
+> Note: don't forget to import jQuery before adding the above script.
 
