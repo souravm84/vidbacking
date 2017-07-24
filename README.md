@@ -15,7 +15,7 @@ This is a small jQuery plugin to simplify the process of showing HTML5 video as 
 ### Demo
 Check few demos in action.
 
-> [Full page background video](https://souravm84.github.io/vidbacking/demo1/) 
+> [Full page background video example](https://souravm84.github.io/vidbacking/demo1/) 
 > 
 > [Video as a `<div>` background](https://souravm84.github.io/vidbacking/demo2/)
 
