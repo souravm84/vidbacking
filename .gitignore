@@ -44,5 +44,7 @@ $RECYCLE.BIN/
 .AppleDesktop
 Network Trash Folder
 Temporary Items
-docs
 .apdisk
+
+#demo and docs
+/docs/
