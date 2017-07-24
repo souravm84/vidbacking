@@ -1,0 +1,53 @@
+.vidbacking-active-body-back{
+	position: fixed;
+	z-index: -100;
+	min-width: 100%;
+	min-height: 100%;
+	top: 50%;
+	left: 50%;
+	background-size: cover;
+	overflow: hidden;
+	opacity: 1;
+	transition: 2s opacity;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.vidbacking-active-block-back{
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+	height: auto;
+	width: auto;
+	z-index: -100;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.vidbacking{
+	display: none;
+}
+.vidmask-body-back{
+	background: url(videooverlay1.png) repeat;
+	opacity: 0.4;
+	min-height: 100%;
+	min-width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -50;
+	display: block;
+}
+.vidmask-block-back{
+	background: url(videooverlay1.png) repeat;
+	opacity: 1;
+	min-height: 100%;
+	min-width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: auto;
+	width: auto;
+	z-index: -50;
+	display: block;
+}
