@@ -16,7 +16,8 @@ The **vidbacking** depends on jQuery 2.x or higher. No other files required for 
 
 ### How to use
 You can use this video-background plugin in two different way. Either for video as page background, or for the background of a `<div>`, `<section>`, or some other block level elements.
-#### For page background:
+#### For full page background:
+---
 You need to add the HTML5 video tag next to  your HTML body tag. Don't forget to add the ***class="vidbacking"*** in your video tag.
 
 ```html
@@ -42,6 +43,7 @@ Then import the script after importing jQuery file, and write a little script as
 ```
 
 #### For `<div>` or other block level elements' background:
+---
 You need to add the HTML5 video tag under the `<div>` or block level element for which you want to set a video-background. Don't forget to add the ***class="vidbacking"*** in your video tag.
 ```html
 <div id="video-back">
