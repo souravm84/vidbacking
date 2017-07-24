@@ -8,9 +8,17 @@ This is a small jQuery plugin to simplify the process of showing HTML5 video as 
 > * Easy to use.
 > * Can be used for both page background or for an element background.
 > * Image fallback when video not supported.
+> * Device friendly, responsive.
 > * Tested on all modern browsers.
 
  
+### Demo
+Check few demos in action.
+
+> [Full page background video](https://souravm84.github.io/vidbacking/demo1/) 
+> 
+> [Video as a `<div>` background](https://souravm84.github.io/vidbacking/demo2/)
+
 ### Dependency
 The **vidbacking** depends on jQuery 2.x or higher. No other files required for it to work properly. Also, it requires HTML5 video tag support in the browser(This is a common feature in all major browsers).
 
