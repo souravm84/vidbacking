@@ -88,6 +88,8 @@ This plugin support following parameters. You can change the output of vidbackin
 > 
 > ***mask-opacity:*** If `masked` is `true` then by setting this parameter you can change the opacity of the mask image. Possible value ranged between `1` to '0', for example `make-opacity: 0.25`.
 > 
-> ***video-opacity:*** You can set the video opacity using this parameter. Possible value ranged between `1` to '0', for example `make-opacity: 0.5`.
+> ***video-opacity:*** You can set the video opacity using this parameter. Possible value ranged between `1` to `0`, for example `make-opacity: 0.5`.
 
 I have plans for upgrading this plugin with more functionalities such as pausing the video when out of view, and few more. If you found any issues please report in this repo, I will try to fix them in next release.
+
+
