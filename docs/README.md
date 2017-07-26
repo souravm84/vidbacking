@@ -86,7 +86,7 @@ Then import the script after importing jQuery file, and write a little script as
 This plugin support following parameters. You can change the output of vidbacking by setting these parameters.
 > ***masked:*** This parameter can have two possible values `true` or `false`. If set to `true` will masked the video with a png image overlay.
 > 
-> ***mask-opacity:*** If `masked` is `true` then by setting this parameter you can change the opacity of the mask image. Possible value ranged between `1` to '0', for example `make-opacity: 0.25`.
+> ***mask-opacity:*** If `masked` is `true` then by setting this parameter you can change the opacity of the mask image. Possible value ranged between `1` to `0`, for example `make-opacity: 0.25`.
 > 
 > ***video-opacity:*** You can set the video opacity using this parameter. Possible value ranged between `1` to `0`, for example `make-opacity: 0.5`.
 
