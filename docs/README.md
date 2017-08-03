@@ -9,6 +9,8 @@ This is a small jQuery plugin to simplify the process of showing HTML5 video as 
 > * Easy to use.
 > * Can be used for both page background or for an element background.
 > * Image fallback when video not supported.
+> * Pause video when out of viewport.
+> * Multiple instances on same page possible.
 > * Device friendly, responsive.
 > * Tested on all modern browsers.
 
@@ -91,5 +93,3 @@ This plugin support following parameters. You can change the output of vidbackin
 > ***video-opacity:*** You can set the video opacity using this parameter. Possible value ranged between `1` to `0`, for example `video-opacity: 0.5`.
 
 I have plans for upgrading this plugin with more functionalities such as pausing the video when out of view, and few more. If you found any issues please report in this repo, I will try to fix them in next release.
-
-
