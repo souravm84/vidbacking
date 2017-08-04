@@ -25,6 +25,10 @@ Check few demos in action.
 ### Dependency
 The **vidbacking** depends on jQuery 2.x or higher. No other files required for it to work properly. Also, it requires HTML5 video tag support in the browser(This is a common feature in all major browsers).
 
+### How to Install
+You can clone/download it from github.com directly. This plugin is also available through npm. In order to download this from npm use the following command
+> npm install vidbacking
+
 ### How to use
 You can use this video-background plugin in two different way. Either for video as page background, or for the background of a `<div>`, `<section>`, or some other block level elements.
 #### For full page background:
@@ -92,4 +96,4 @@ This plugin support following parameters. You can change the output of vidbackin
 > 
 > ***video-opacity:*** You can set the video opacity using this parameter. Possible value ranged between `1` to `0`, for example `video-opacity: 0.5`.
 
-I have plans for upgrading this plugin with more functionalities such as pausing the video when out of view, and few more. If you found any issues please report in this repo, I will try to fix them in next release.
+I have plans for upgrading this plugin with more functionalities. If you found any issues please report in this repo, I will try to fix them in next release.
