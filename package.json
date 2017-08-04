@@ -1,6 +1,6 @@
 {
   "name": "vidbacking",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "vidbacking is a jQuery plugin to create HTML5 video as background on webpage with fallback image support.",
   "main": "./src/jquery.vidbacking.js",
   "directories": {
@@ -15,7 +15,10 @@
   },
   "keywords": [
     "jquery-plugin",
-    "ecosystem:jquery"
+    "ecosystem:jquery",
+	"html5-video-background",
+	"video-background",
+	"full-page-video-background"
   ],
   "author": "Sourav Mukhopadhyay",
   "license": "MIT",
