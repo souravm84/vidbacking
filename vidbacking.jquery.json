@@ -1,0 +1,20 @@
+{
+	"name": "vidbacking",
+	"title": "VidBacking for video Background",
+	"version": "1.1.2",
+	"description": "vidbacking is a jQuery plugin to create HTML5 video as background on webpage with fallback image support.",
+	"author": {
+    	"name" : "Sourav Mukhopadhyay",
+        "email" : "sourav.mukhopadhyay@gmail.com",
+        "url" : "https://www.upwork.com/o/profiles/users/_~010a5ed52d2f45f4db/"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://raw.githubusercontent.com/souravm84/vidbacking/master/LICENSE.md"
+		}
+	],
+	"dependencies": {"jquery": "~2"},
+	"homepage": "https://github.com/souravm84/vidbacking",
+	"demo": "https://souravm84.github.io/vidbacking/demo2/"
+}
