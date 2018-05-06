@@ -1,5 +1,5 @@
 # Video Background Plugin with Support for Youtube Video
-##### vidbacking is an attempt to make HTML5 video-background easy. Support video files or Youtube video
+##### vidbacking is an attempt to make HTML5 video-background easy. Support video files and Youtube video
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/souravm84/vidbacking/master/LICENSE.md)
 
 This is a small jQuery plugin to simplify the process of showing HTML5 video as background. You can use this for showing a video file or Youtube video on **whole page background** or to show the video as the background of a `<div>`, `<section>`, like elements.
