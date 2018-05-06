@@ -26,7 +26,7 @@ Check few demos in action.
 >
 >[Full page background example with Youtube video](https://souravm84.github.io/vidbacking/demo3/)
 >
-> [Video as a `<div>` background  with Youtube video](https://souravm84.github.io/vidbacking/demo2/)
+> [Video as a `<div>` background  with Youtube video](https://souravm84.github.io/vidbacking/demo4/)
 
 ### Dependency
 The **vidbacking** depends on jQuery 2.x or higher. No other files required for it to work properly. Also, it requires HTML5 video tag support in the browser(This is a common feature in all major browsers).
