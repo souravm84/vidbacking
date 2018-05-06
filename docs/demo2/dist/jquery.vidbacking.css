@@ -12,10 +12,35 @@
 	transform: translateX(-50%) translateY(-50%);
 }
 
+.vidbacking-active-body-back-youtube{
+	position: fixed;
+	z-index: -100;
+	/*min-width: 100%;
+	min-height: calc(100% * 1.77);*/
+	top: 50%;
+	left: 50%;
+	overflow: hidden;
+	opacity: 1;
+	transition: 2s opacity;
+	transform: translateX(-50%) translateY(-50%);
+}
+
 .vidbacking-active-block-back{
 	position: absolute;
 	min-width: 100%;
 	min-height: 100%;
+	height: auto;
+	width: auto;
+	z-index: -100;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.vidbacking-active-block-back-youtube{
+	position: absolute;
+	/*min-width: 100%;
+	min-height: 100%;*/
 	height: auto;
 	width: auto;
 	z-index: -100;
