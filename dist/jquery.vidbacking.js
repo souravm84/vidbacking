@@ -252,7 +252,7 @@
 						target_element_bottom = targetobj.outerHeight() + target_element_position.top,
 						window_bottom = winheight + top;
 					//If out of view port then pause HTML5 video. No effect on YouTube video.
-					if(target_element_bottom < top || target_element_position.top > window_bottom){
+					if((target_element_bottom < top || target_element_position.top > window_bottom) && objtag == 'VIDEO'){
 						if(!obj[0].paused){
 							try{
 								obj[0].pause();
